@@ -28,7 +28,7 @@ jobs:
       # $> yarn && yarn start --web
       - name: install dependencies
         run: |
-          echo -install dependencies-
+          echo  \033[0;31m-install dependencies-\033[0m
           yarn
-          echo -build app-
+          echo \033[0;31m-build app-\033[0m
           yarn start --web
