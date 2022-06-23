@@ -32,3 +32,5 @@ jobs:
           yarn
           echo --build app--
           yarn start --web
+      - name: code coverage
+        run: yarn --coverage
