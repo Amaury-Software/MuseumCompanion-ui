@@ -29,5 +29,9 @@
   "resolutions": {
     "@types/react": "17.0.43"
   },
+  "jest": {
+     "collectCoverage": true,
+     "coverageReporters": ["json", "html"],
+ }
   "private": true
 }
